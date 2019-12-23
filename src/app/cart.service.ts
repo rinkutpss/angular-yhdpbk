@@ -6,6 +6,7 @@ items = [];
   constructor() { }
 
   addToCart(product) {
+    console.log('product',product);
     this.items.push(product);
   }
 
