@@ -12,6 +12,7 @@ export class CartComponent {
 
   ngOnInit() {
     this.items = this.cartService.getItems();
+    console.log('items',this.items);
   }
 
 }

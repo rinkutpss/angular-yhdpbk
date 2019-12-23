@@ -29,7 +29,7 @@ import { CartComponent } from './cart/cart.component';
     ProductListComponent,
     ProductAlertsComponent,
     ProductDetailsComponent,
-    CartComponent
+    CartComponent,
   ],
   bootstrap:    [ AppComponent ],
   providers: [CartService]
